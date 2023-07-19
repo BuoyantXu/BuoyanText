@@ -1,7 +1,7 @@
 # TextNormalizer
-### v1.0 20230718
+### v0.0.1 20230719
 ___
-## TextNorm.py
+## ByTextNorm.py
 
 **TextNorm** class
 
@@ -44,7 +44,7 @@ Normalizing English or Chinese text
 - punctuation_drop: drop punctuations (default: True)
 
 ___
-## TextReader.py
+## ByTextReader.py
 
 **(1) file_reader**
 
