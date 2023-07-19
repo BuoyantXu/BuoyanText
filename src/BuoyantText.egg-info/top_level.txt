@@ -1,3 +1,0 @@
-TextNorm
-TextReader
-__init__

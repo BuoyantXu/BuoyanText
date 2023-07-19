@@ -1,13 +1,13 @@
-import re
 import json
-import unicodedata
-from bs4 import BeautifulSoup
-import spacy
+import re
+
 import jieba
 import nltk
+import spacy
+import unicodedata
+from bs4 import BeautifulSoup
 from nltk.corpus import wordnet
 from nltk.tokenize.toktok import ToktokTokenizer
-
 
 tokenizer = ToktokTokenizer()
 spacy_nlp = spacy.load('en_core_web_sm')

@@ -1,9 +1,10 @@
-from functools import partial
-from multiprocessing import Pool
 import os
 import re
-import pandas as pd
+from functools import partial
+from multiprocessing import Pool
+
 import fitz
+import pandas as pd
 
 
 def file_list_reader(file_paths=None, save_text=True, name_pattern="", normalizer=None, threading=1):

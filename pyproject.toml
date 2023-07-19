@@ -1,5 +1,13 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = [
+    "setuptools>=61.0",
+    "pymupdf",
+    "pandas",
+    "nltk",
+    "jieba",
+    "spacy",
+    "bs4",
+]
 build-backend = "setuptools.build_meta"
 
 [project]
