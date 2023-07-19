@@ -1,4 +1,4 @@
-# BuoyantText
+# BuoyanText
 ### v0.0.1 20230719
 ___
 ## ByTextNorm.py
