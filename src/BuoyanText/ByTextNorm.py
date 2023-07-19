@@ -13,14 +13,14 @@ tokenizer = ToktokTokenizer()
 spacy_nlp = spacy.load('en_core_web_sm')
 
 # English
-with open('nlp_data/English/stopwords.json', 'r') as f:
+with open('stopwords_English.json', 'r') as f:
     stopwords_English = json.load(f)
-with open('nlp_data/English/contractions.json', 'r') as f:
+with open('contractions_English.json', 'r') as f:
     contractions = json.load(f)
 # Chinese
-with open('nlp_data/Chinese/stopwords.json', 'r') as f:
+with open('stopwords_Chinese.json', 'r') as f:
     stopwords_Chinese = json.load(f)
-with open('nlp_data/Chinese/punctuation.json') as f:
+with open('punctuation_Chinese.json') as f:
     punctuation = json.load(f)
 
 
