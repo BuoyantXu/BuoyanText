@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 from nltk.corpus import wordnet
 from nltk.tokenize.toktok import ToktokTokenizer
 
+
 current_path = os.path.dirname(os.path.abspath(__file__))
 
 tokenizer = ToktokTokenizer()
