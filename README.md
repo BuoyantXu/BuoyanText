@@ -1,6 +1,11 @@
 # BuoyanText
-### v0.0.5 20230720
 ___
+## Installation
+
+Install latest release from PyPI:
+
+    pip install BuoyanText
+
 ## TextNorm.py
 
 **TextNorm** class
