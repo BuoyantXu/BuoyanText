@@ -1,5 +1,5 @@
-from TextReader import file_list_reader, file_reader, pdf_to_txt
-from TextNorm import TextNorm
+from BuoyanText.TextReader import file_list_reader, file_reader, pdf_to_txt
+from BuoyanText.TextNorm import TextNorm
 
 
 if __name__ == '__main__':
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     # text normalize
     tn = TextNorm(text=check['text'], language="cn")
-    tn.normalize()
+    normalized_text = tn.normalize()
     print(tn.normalized_text)
 
     #########################
