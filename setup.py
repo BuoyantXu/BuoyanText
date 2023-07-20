@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="BuoyanText",
-    version="0.0.1",
+    version="0.0.5",
     author="Boyang Xu",
     author_email="by24225@163.com",
     description="Normalizing English and Chinese Text",
@@ -34,6 +34,6 @@ setuptools.setup(
     include_package_data=True,
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    package_data={"BuoyanText": ["*.json"]},
+    package_data={"BuoyanText": ["data/norm/*.json"]},
     python_requires=">=3.7",
 )

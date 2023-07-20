@@ -1,7 +1,7 @@
 # BuoyanText
-### v0.0.1 20230719
+### v0.0.5 20230720
 ___
-## ByTextNorm.py
+## TextNorm.py
 
 **TextNorm** class
 
@@ -44,7 +44,7 @@ Normalizing English or Chinese text
 - punctuation_drop: drop punctuations (default: True)
 
 ___
-## ByTextReader.py
+## TextReader.py
 
 **(1) file_reader**
 

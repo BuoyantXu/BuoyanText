@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: BuoyanText
-Version: 0.0.1
+Version: 0.0.5
 Summary: Normalizing English and Chinese Text
 Home-page: https://github.com/BuoyantXu/BuoyantText
 Author: Boyang Xu
@@ -14,10 +14,10 @@ Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# BuoyantText
-### v0.0.1 20230719
+# BuoyanText
+### v0.0.5 20230720
 ___
-## ByTextNorm.py
+## TextNorm.py
 
 **TextNorm** class
 
@@ -60,7 +60,7 @@ Normalizing English or Chinese text
 - punctuation_drop: drop punctuations (default: True)
 
 ___
-## ByTextReader.py
+## TextReader.py
 
 **(1) file_reader**
 

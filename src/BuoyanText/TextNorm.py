@@ -8,19 +8,24 @@ import unicodedata
 from bs4 import BeautifulSoup
 from nltk.corpus import wordnet
 from nltk.tokenize.toktok import ToktokTokenizer
+import os
+
+
+current_path = os.path.dirname(os.path.abspath(__file__))
 
 tokenizer = ToktokTokenizer()
 spacy_nlp = spacy.load('en_core_web_sm')
 
+# load data
 # English
-with open('stopwords_English.json', 'r') as f:
+with open(os.path.join(current_path, 'data/norm/stopwords_English.json'), 'r') as f:
     stopwords_English = json.load(f)
-with open('contractions_English.json', 'r') as f:
+with open(os.path.join(current_path, 'data/norm/contractions_English.json'), 'r') as f:
     contractions = json.load(f)
 # Chinese
-with open('stopwords_Chinese.json', 'r') as f:
+with open(os.path.join(current_path, 'data/norm/stopwords_Chinese.json'), 'r') as f:
     stopwords_Chinese = json.load(f)
-with open('punctuation_Chinese.json') as f:
+with open(os.path.join(current_path, 'data/norm/punctuation_Chinese.json'), 'r') as f:
     punctuation = json.load(f)
 
 
