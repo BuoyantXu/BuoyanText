@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 import jieba
@@ -8,8 +9,6 @@ import unicodedata
 from bs4 import BeautifulSoup
 from nltk.corpus import wordnet
 from nltk.tokenize.toktok import ToktokTokenizer
-import os
-
 
 current_path = os.path.dirname(os.path.abspath(__file__))
 
